@@ -9,7 +9,7 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
       --bg: #0d0d0d; --surface: #161616; --card: #1c1c1c; --border: #2a2a2a;
-      --accent: #bb0ae7; --accent2: #ff5c3a; --text: #f0f0f0; --muted: #888;
+      --accent: #d90ed6; --accent2: #ff5c3a; --text: #f0f0f0; --muted: #888;
       --font-display: 'Bebas Neue', sans-serif; --font-body: 'DM Sans', sans-serif;
     }
     body { background: var(--bg); color: var(--text); font-family: var(--font-body); min-height: 100vh; }
@@ -308,7 +308,7 @@ const CARS = [
   {
     id:3, make:'Tesla', model:'Model 3 Long Range', year:2024, fuel:'Electric', trans:'Auto',
     badge:'new', category:['buy','new','sedan','electric'],
-    img:'https://images.unsplash.com/photo-1617788138017-80ad40651399?w=700&q=80',
+    img:'https://www.electrive.com/media/2024/10/tesla-model-3-long-range-2024-01.jpeg',
     price:'KSh 6.9M', priceLabel:'Asking Price',
     specs:[
       {k:'Power',v:'358 hp'},{k:'Range',v:'614 km'},{k:'0–100',v:'4.4s'},
@@ -321,7 +321,7 @@ const CARS = [
   {
     id:4, make:'Toyota', model:'Land Cruiser 300', year:2022, fuel:'Diesel', trans:'Automatic',
     badge:'buy', category:['buy','suv','used'],
-    img:'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=700&q=80',
+    img:'https://media.drive.com.au/obj/tx_q:50,rs:auto:1920:1080:1/caradvice/private/f9bdzukyadtuxzp0qsmn',
     price:'KSh 11.5M', priceLabel:'Asking Price',
     specs:[
       {k:'Power',v:'309 hp'},{k:'Mileage',v:'45,000 km'},{k:'Torque',v:'700 Nm'},
@@ -334,7 +334,7 @@ const CARS = [
   {
     id:5, make:'Mercedes-Benz', model:'C300 AMG Line', year:2022, fuel:'Petrol', trans:'9G-Tronic',
     badge:'sell', category:['sell','sedan','used'],
-    img:'https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=700&q=80',
+    img:'https://www.thedrive.com/wp-content/uploads/2022/12/21/IMG_0893-scaled.jpg?strip=all&quality=85',
     price:'KSh 7.1M', priceLabel:'Listed At',
     specs:[
       {k:'Power',v:'255 hp'},{k:'Mileage',v:'28,100 km'},{k:'0–100',v:'5.8s'},
@@ -347,7 +347,7 @@ const CARS = [
   {
     id:6, make:'Audi', model:'Q5 Sportback', year:2023, fuel:'Petrol', trans:'S-Tronic',
     badge:'buy', category:['buy','suv','used'],
-    img:'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=700&q=80',
+    img:'https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/6f05d571-8736-44c6-ac7b-69bb5082cdfb/Audi%20Q5%20Sportback%20%284%29.jpg',
     price:'KSh 9.8M', priceLabel:'Asking Price',
     specs:[
       {k:'Power',v:'261 hp'},{k:'Mileage',v:'12,800 km'},{k:'0–100',v:'5.9s'},
@@ -360,7 +360,7 @@ const CARS = [
   {
     id:7, make:'BMW', model:'X5 xDrive40i', year:2023, fuel:'Petrol', trans:'Automatic',
     badge:'buy', category:['buy','suv','used'],
-    img:'https://images.unsplash.com/photo-1556189250-72ba954cfc2b?w=700&q=80',
+    img:'https://carsales.pxcrush.net/carsales/cars/dealer/bo9s782obe42g4qm4ptig5vf8.jpg?pxc_method=GravityFill&width=480&height=320&watermark=1522915120',
     price:'KSh 12.8M', priceLabel:'Asking Price',
     specs:[
       {k:'Power',v:'340 hp'},{k:'Mileage',v:'22,000 km'},{k:'0–100',v:'5.5s'},
@@ -373,7 +373,7 @@ const CARS = [
   {
     id:8, make:'BMW', model:'X3 xDrive30i', year:2022, fuel:'Petrol', trans:'Automatic',
     badge:'sell', category:['sell','suv','used'],
-    img:'https://images.unsplash.com/photo-1580414057403-c5f451f30e1c?w=700&q=80',
+    img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLHw7QxU39x-pMhE2fmg0BT1Y9Ltbvc2W6Pg&s',
     price:'KSh 7.9M', priceLabel:'Listed At',
     specs:[
       {k:'Power',v:'248 hp'},{k:'Mileage',v:'35,000 km'},{k:'0–100',v:'6.0s'},
@@ -386,7 +386,7 @@ const CARS = [
   {
     id:9, make:'BMW', model:'Z4 sDrive30i', year:2021, fuel:'Petrol', trans:'Automatic',
     badge:'buy', category:['buy','used'],
-    img:'https://images.unsplash.com/photo-1617531653332-bd46c16f4d68?w=700&q=80',
+    img:'https://cdn.motor1.com/images/mgl/2xvMz/s1/2019-bmw-z4-m40i.jpg',
     price:'KSh 9.2M', priceLabel:'Asking Price',
     specs:[
       {k:'Power',v:'255 hp'},{k:'Mileage',v:'19,500 km'},{k:'0–100',v:'5.4s'},
@@ -399,7 +399,7 @@ const CARS = [
   {
     id:10, make:'BMW', model:'X7 xDrive40i', year:2023, fuel:'Petrol', trans:'Automatic',
     badge:'buy', category:['buy','suv','used'],
-    img:'https://images.unsplash.com/photo-1627454820516-c8af4fd37272?w=700&q=80',
+    img:'https://bmw.scene7.com/is/image/BMW/x7-xdrive40i-m-sport-teaser?wid=1185&hei=533',
     price:'KSh 18.5M', priceLabel:'Asking Price',
     specs:[
       {k:'Power',v:'340 hp'},{k:'Mileage',v:'14,200 km'},{k:'0–100',v:'5.8s'},
@@ -412,7 +412,7 @@ const CARS = [
   {
     id:11, make:'BMW', model:'M4 Competition', year:2022, fuel:'Petrol', trans:'M-DCT',
     badge:'sell', category:['sell','used'],
-    img:'https://images.unsplash.com/photo-1619682817481-e994891cd1f5?w=700&q=80',
+    img:'https://bringatrailer.com/wp-content/uploads/2024/08/2022_bmw_m4-competition-xdrive_n5a8152-30378.jpg',
     price:'KSh 13.5M', priceLabel:'Listed At',
     specs:[
       {k:'Power',v:'510 hp'},{k:'Mileage',v:'21,000 km'},{k:'0–100',v:'3.9s'},
@@ -425,7 +425,7 @@ const CARS = [
   {
     id:12, make:'Range Rover', model:'Sport HSE Dynamic', year:2023, fuel:'Diesel', trans:'Automatic',
     badge:'buy', category:['buy','suv','used'],
-    img:'https://images.unsplash.com/photo-1622185135505-2d795003994a?w=700&q=80',
+    img:'https://media.production.jlrms.com/2020-07-13/image/3d64a014-d0e5-4d64-bc71-711f863e3e37/RRS_21MY_HSE_DYN_BLACK_150720_01.jpg?VersionId=0jv4UVU5PNhtLLwaqvttrMRa2knsKuaC',
     price:'KSh 16.9M', priceLabel:'Asking Price',
     specs:[
       {k:'Power',v:'350 hp'},{k:'Mileage',v:'28,000 km'},{k:'0–100',v:'6.1s'},
@@ -464,7 +464,7 @@ const CARS = [
   {
     id:15, make:'Toyota', model:'Prado TX-L', year:2023, fuel:'Diesel', trans:'Automatic',
     badge:'buy', category:['buy','suv','used'],
-    img:'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=700&q=80',
+    img:'https://sparegarage.co.ke/storage/cars/listings/PFXTLF9N/1041118-273571-%20(1).jpg',
     price:'KSh 8.7M', priceLabel:'Asking Price',
     specs:[
       {k:'Power',v:'204 hp'},{k:'Mileage',v:'31,000 km'},{k:'Torque',v:'500 Nm'},
@@ -477,7 +477,7 @@ const CARS = [
   {
     id:16, make:'Hyundai', model:'Tucson N-Line', year:2023, fuel:'Petrol', trans:'DCT',
     badge:'new', category:['buy','new','suv'],
-    img:'https://images.unsplash.com/photo-1614200187524-dc4b892acf16?w=700&q=80',
+    img:'https://cdn.motor1.com/images/mgl/WVwx1/s1/2021-hyundai-tucson-n-line.webp',
     price:'KSh 4.2M', priceLabel:'Asking Price',
     specs:[
       {k:'Power',v:'178 hp'},{k:'Mileage',v:'5,100 km'},{k:'0–100',v:'8.1s'},
@@ -490,7 +490,7 @@ const CARS = [
   {
     id:17, make:'Subaru', model:'Outback Premium', year:2022, fuel:'Petrol', trans:'CVT',
     badge:'sell', category:['sell','used','suv'],
-    img:'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=700&q=80',
+    img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKjRSsaO2XRoZ32jiyQFKqTKq7qguiFOv52Q&s',
     price:'KSh 3.8M', priceLabel:'Listed At',
     specs:[
       {k:'Power',v:'182 hp'},{k:'Mileage',v:'48,000 km'},{k:'Torque',v:'239 Nm'},
@@ -503,7 +503,7 @@ const CARS = [
   {
     id:18, make:'Volkswagen', model:'Tiguan R-Line', year:2023, fuel:'Petrol', trans:'DSG',
     badge:'buy', category:['buy','suv','used'],
-    img:'https://images.unsplash.com/photo-1617654112329-be7b9f61cb35?w=700&q=80',
+    img:'https://carsforsale.co.ke/wp-content/uploads/2024/02/2017-Volkswagen-Tiguan-R-Line-a.jpg',
     price:'KSh 5.6M', priceLabel:'Asking Price',
     specs:[
       {k:'Power',v:'184 hp'},{k:'Mileage',v:'16,200 km'},{k:'0–100',v:'7.5s'},
